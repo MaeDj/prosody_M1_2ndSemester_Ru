@@ -1,0 +1,8 @@
+participant_id,gender,4_language,french_level,french_years,french_listening_rating,device,mistake_score,mean_mistake
+P_1777109938768,Male,English,0,0.0,1,Speakers,5,0.0347222222222222
+P_1777138267672,Male,Turkish,0,0.0,1,Speakers,7,0.0486111111111111
+P_1777821480999,Male,English,1,1.0,2,Headphones,4,0.0277777777777777
+P_1777832348219,Male,Slovene,0,0.0,1,Headphones,5,0.0347222222222222
+P_1777832887071,Non-binary,Dutch,2,3.0,3,Speakers,4,0.0277777777777777
+P_1777835211841,Mâle,Autre,3,20.0,7,Headphones,3,0.0208333333333333
+P_1777837300713,Male,Pulaar,3,20.0,7,Speakers,5,0.0347222222222222
