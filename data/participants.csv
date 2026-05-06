@@ -1,0 +1,35 @@
+participant_id,participant_ts,age,gender,handedness,native_language,other_languages,french_level,french_years,french_listening_rating,hearing_difficulties,device,mistake_score,mean_mistake
+P_1777109938768,2026-04-25T09:38:58.768Z,23,Male,Right-handed,English,Irish,,0.0,1,No,Speakers,5,0.034722222222222224
+P_1777110628910,2026-04-25T09:50:28.915Z,24,Male,Right-handed,French,english,Native,18.0,7,No,Headphones,4,0.027777777777777776
+P_1777112065838,2026-04-25T10:14:25.839Z,25,Female,Right-handed,French,English,Native,25.0,7,No,Speakers,1,0.006944444444444444
+P_1777112413669,2026-04-25T10:20:13.669Z,58,Mâle,Right-handed,Français,"Anglais, Italien ",Native,,7,No,Headphones,12,0.08333333333333333
+P_1777112598665,2026-04-25T10:23:18.665Z,22,Female,Right-handed,Slovak,"English, German",,0.0,1,No,Headphones,4,0.027777777777777776
+P_1777114655189,2026-04-25T10:57:35.189Z,15,Mâle,Left-handed,Français,,Native,15.0,7,No,Headphones,2,0.013888888888888888
+P_1777131147772,2026-04-25T15:32:27.772Z,24,Female,Right-handed,English,"Spanish, Korean",A1/A2,1.0,2,No,Speakers,3,0.020833333333333332
+P_1777138267672,2026-04-25T17:31:07.672Z,22,Male,Right-handed,Turkish,"English, German",,0.0,1,No,Speakers,7,0.04861111111111111
+P_1777145041687,2026-04-25T19:24:01.687Z,30,Female,Right-handed,French,English,Native,,7,No,Headphones,6,0.041666666666666664
+P_1777146721262,2026-04-25T19:52:01.262Z,29,Male,Right-handed,French,English,Native,29.0,7,No,Headphones,4,0.027777777777777776
+P_1777204271005,2026-04-26T11:51:11.006Z,25,Female,Right-handed,French,English,Native,,7,No,Speakers,2,0.013888888888888888
+P_1777279179013,2026-04-27T08:39:39.013Z,20,Male,Right-handed,French,English,Native,20.0,7,No,Headphones,3,0.020833333333333332
+P_1777402035832,2026-04-28T18:47:15.832Z,24,Male,Left-handed,French,English,Native,24.0,7,No,Headphones,3,0.020833333333333332
+P_1777810079076,2026-05-03T12:07:59.076Z,22,Female,Right-handed,Italian,"English, French, German, Spanish",C1/C2,4.0,5,No,Headphones,4,0.027777777777777776
+P_1777811943826,2026-05-03T12:39:03.828Z,22,Female,Right-handed,Italian,,A1/A2,3.0,2,No,Headphones,0,0.0
+P_1777813644955,2026-05-03T13:07:24.955Z,22,Male,Right-handed,French,English,Native,22.0,7,No,Headphones,2,0.013888888888888888
+P_1777818156374,2026-05-03T14:22:36.374Z,24,Prefer not to say,Right-handed,French,,C1/C2,24.0,7,Yes,Headphones,5,0.034722222222222224
+P_1777818239900,2026-05-03T14:23:59.900Z,23,Female,Right-handed,French,"English, Chinese, German, Dutch",Native,23.0,7,No,Headphones,12,0.08333333333333333
+P_1777818502614,2026-05-03T14:28:22.614Z,23,Female,Left-handed,German,"English, French, Arabic",A1/A2,5.0,3,No,Headphones,6,0.041666666666666664
+P_1777821480999,2026-05-03T15:18:00.999Z,23,Male,Left-handed,English,,A1/A2,1.0,2,No,Headphones,4,0.027777777777777776
+P_1777828509846,2026-05-03T17:15:09.846Z,21,Female,Right-handed,Arabic,English,A1/A2,2.0,3,No,Speakers,10,0.06944444444444445
+P_1777829481203,2026-05-03T17:31:21.203Z,23,Female,Right-handed,Italian,"English, German, Spanish ",,0.0,1,No,Headphones,6,0.041666666666666664
+P_1777831330429,2026-05-03T18:02:10.429Z,20,Female,Right-handed,French,English,Native,20.0,7,No,Headphones,8,0.05555555555555555
+P_1777831674161,2026-05-03T18:07:54.161Z,24,Female,Right-handed,Korean,English,,0.0,1,No,Speakers,4,0.027777777777777776
+P_1777832195896,2026-05-03T18:16:35.896Z,18,Prefer not to say,Left-handed,French,English ,Native,18.0,6,No,Headphones,6,0.041666666666666664
+P_1777832348219,2026-05-03T18:19:08.219Z,20,Male,Right-handed,Slovene,English,,0.0,1,No,Headphones,5,0.034722222222222224
+P_1777832887071,2026-05-03T18:28:07.071Z,20,Non-binary,Left-handed,Dutch,"english, spanish",B1/B2,3.0,3,No,Speakers,4,0.027777777777777776
+P_1777835056342,2026-05-03T19:04:16.342Z,22,Female,Right-handed,French,English ,Native,22.0,7,No,Speakers,0,0.0
+P_1777835211841,2026-05-03T19:06:51.841Z,27,Mâle,Right-handed,Autre,"Français, anglais ",C1/C2,20.0,7,No,Headphones,3,0.020833333333333332
+P_1777835608015,2026-05-03T19:13:28.015Z,22,Male,Right-handed,French,,Native,22.0,7,No,Headphones,2,0.013888888888888888
+P_1777837300713,2026-05-03T19:41:40.713Z,24,Male,Right-handed,Pulaar,"English, French, Bambara",C1/C2,20.0,7,No,Speakers,5,0.034722222222222224
+P_1777840317898,2026-05-03T20:31:57.899Z,23,Female,Right-handed,Romanian,"English, French, Italian, Spanish",C1/C2,7.0,7,No,Speakers,5,0.034722222222222224
+P_1777910539807,2026-05-04T16:02:19.807Z,25,Male,Right-handed,French,English,Native,,7,No,Headphones,0,0.0
+P_1777919289593,2026-05-04T18:28:09.593Z,31,Male,Right-handed,French,"English, Spanish, German",Native,31.0,7,No,Headphones,3,0.020833333333333332
