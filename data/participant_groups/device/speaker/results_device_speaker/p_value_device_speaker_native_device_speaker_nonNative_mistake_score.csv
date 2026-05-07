@@ -1,0 +1,2 @@
+test,p_value,test_statistic,shapiro_stat_group1,shapiro_p_group1,shapiro_stat_group2,shapiro_p_group2
+ANOVA,0.010211232600310295,10.47671840354767,1.0,1.0,0.8479303542137923,0.0907726285235622

@@ -1,6 +1,6 @@
-# prosody_M1_2ndSemester_Ru
 
-Statistical analysis of a survey about prosodic perception — M1 2nd semester validation project.
+
+Statistical analysis pipeline
 
 ## Overview
 
@@ -19,24 +19,35 @@ The algorithm first runs a **Shapiro-Wilk normality test** on each group, then s
 
 | Paired | Normally distributed | Test applied      |
 |--------|----------------------|-------------------|
-| Yes    | Yes                  | ANOVA             |
+| Yes    | Yes                  | Paired t-test     |
 | Yes    | No                   | Wilcoxon          |
-| No     | Yes                  | t-test            |
+| No     | Yes                  | ANOVA             |
 | No     | No                   | Mann-Whitney U    |
 
 ## Output
 
-Results are written to a new CSV file containing:
+Results are written to `<output_folder>/p_value_<name1>_<name2>_<column_name>.csv` containing:
 
 - The **p-value** resulting from the selected statistical test
+- The test statistic
 - The name of the test that was applied
 - The normality test results (Shapiro-Wilk statistic and p-value for each group)
 
 ## Usage
 
 ```
-python main.py --file1 group1.csv --file2 group2.csv --col1 <column_name_in_file1> --col2 <column_name_in_file2> --paired <true|false> --output <output_folder>
+python main.py --file1 group1.csv --file2 group2.csv --col1 <column_name_in_file1> --col2 <column_name_in_file2> --paired <true|false> --output <output_folder> [--alpha_shapiro 0.05]
 ```
+
+| Argument | Required | Description |
+|---------------|----------|-------------|
+| `--file1` | yes | Path to the first group CSV file |
+| `--file2` | yes | Path to the second group CSV file |
+| `--col1` | yes | Column name to analyse in `file1` |
+| `--col2` | yes | Column name to analyse in `file2` |
+| `--paired` | yes | `true` if samples are paired, `false` otherwise |
+| `--output` | yes | Folder where the result CSV will be written (created if absent) |
+| `--alpha_shapiro` | no | Significance threshold for the Shapiro-Wilk test (default: `0.05`) |
 
 ---
 
@@ -57,18 +68,23 @@ A second function aggregates results from multiple hypothesis tests and applies 
 
 ### Output
 
-A new CSV file containing:
+Results are written to `<output_folder>/p_corrected_<names>_<column_name>.csv` (where `<names>` is the concatenation of the input basenames), containing:
 
-- The original p-value
-- The corrected p-value (`p_value * m`, capped at 1.0)
-- The source file each p-value came from
-- The total number of hypotheses *m* used for the correction
+- `source_file` — the input file the p-value came from
+- `p_value` — the original p-value
+- `p_corrected` — the Bonferroni-corrected p-value (`p_value * m`, capped at 1.0)
+- `m` — the total number of hypotheses used for the correction
 
 ### Usage
 
 ```
-python bonferroni.py --files result1.csv result2.csv result3.csv --output corrected.csv
+python bonferroni.py --files result1.csv result2.csv result3.csv --output <output_folder>
 ```
+
+| Argument | Required | Description |
+|-----------|----------|-------------|
+| `--files` | yes | One or more CSV files each containing a `p_value` column (e.g. outputs from `main.py`) |
+| `--output` | yes | Folder where the corrected result CSV will be written (created if absent) |
 
 ---
 

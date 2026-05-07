@@ -51,7 +51,7 @@ def run_analysis(file1, file2, col1, col2, paired, output_folder, alpha_shapiro=
 
     name1 = csv_basename(file1)
     name2 = csv_basename(file2)
-    output_filename = f"p_value_{name1}_{name2}.csv"
+    output_filename = f"p_value_{name1}_{name2}_{col1}.csv"
 
 #fall back if the output directory given does not exist
     os.makedirs(output_folder, exist_ok=True)
