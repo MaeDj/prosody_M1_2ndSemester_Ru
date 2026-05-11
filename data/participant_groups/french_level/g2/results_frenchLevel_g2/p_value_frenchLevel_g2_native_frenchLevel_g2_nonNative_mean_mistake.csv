@@ -1,0 +1,2 @@
+test,p_value,test_statistic,shapiro_stat_group1,shapiro_p_group1,shapiro_stat_group2,shapiro_p_group2
+Mann-Whitney U,0.4518925323111461,34.5,0.8673937001973531,0.016122327156662637,0.8810376385817492,0.3140395561440388

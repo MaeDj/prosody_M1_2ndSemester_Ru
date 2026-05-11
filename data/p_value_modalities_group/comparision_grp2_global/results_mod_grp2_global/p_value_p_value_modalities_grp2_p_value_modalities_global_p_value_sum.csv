@@ -1,0 +1,2 @@
+test,p_value,test_statistic,shapiro_stat_group1,shapiro_p_group1,shapiro_stat_group2,shapiro_p_group2
+Wilcoxon,0.7421875,15.0,0.7271436981082557,0.004549435162849782,1.0,1.0

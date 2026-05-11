@@ -1,0 +1,2 @@
+test,p_value,test_statistic,shapiro_stat_group1,shapiro_p_group1,shapiro_stat_group2,shapiro_p_group2
+paired t-test,0.015741465750657126,3.1684654765840783,0.9553483413888196,0.7648097205139468,1.0,1.0

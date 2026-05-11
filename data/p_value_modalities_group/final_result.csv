@@ -1,0 +1,4 @@
+,p_value_reaction_time,result_reactionTime(alpha=0.05),p_value_accuracy,Result_accuracy(alpha=0.05)
+grp1/global,0.05973289781594323,No,0.07320363624362373,No
+grp1/grp2,0.5168653215825211,No,0.640625,No
+grp2/global,0.015741465750657126,Yes,0.7421875,No
